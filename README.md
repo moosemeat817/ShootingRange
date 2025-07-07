@@ -2,7 +2,7 @@
 Enable shooting range targets, weather vane, hunting blind, warm barn near Penisve Pond in Pleasant Valley
 
 
-<img src="https://github.com/moosemeat817/images/blob/main/ShootingRange.jpg" width="80%">
+<img src="https://github.com/moosemeat817/images/blob/main/ShootingRange_modlist.jpg" width="80%">
 
 
 
