@@ -6,7 +6,8 @@ Enable shooting range targets, weather vane, hunting blind, and a warm barn near
 
 
 
-
+## Required
+ModSettings
 
 ## Special Thanks
 The Long Dark Modding Server (Discord)
