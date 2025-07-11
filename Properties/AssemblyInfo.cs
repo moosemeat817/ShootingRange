@@ -6,7 +6,7 @@ using MelonLoader;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("ShootingRange")]
-[assembly: AssemblyDescription("Enable shooting range targets, weather vane, hunting blind, warm barn near Penisve Pond in Pleasant Valley")]
+[assembly: AssemblyDescription("Enable shooting range targets, weather vane, hunting blind, and a warm barn near Pensive Pond in Pleasant Valley")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("ShootingRange")]
@@ -32,7 +32,7 @@ using MelonLoader;
 // You can specify all the values or you can default the Build and Revision Numbers
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.0")]
-[assembly: AssemblyFileVersion("1.0.0")]
-[assembly: MelonInfo(typeof(ShootingRange.Main), "Shooting RRange", "1.0.0", "moosemeat817")]
+[assembly: AssemblyVersion("1.0.1")]
+[assembly: AssemblyFileVersion("1.0.1")]
+[assembly: MelonInfo(typeof(ShootingRange.Main), "Shooting Range", "1.0.1", "moosemeat817")]
 [assembly: MelonGame("Hinterland", "TheLongDark")]
