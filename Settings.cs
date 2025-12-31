@@ -6,7 +6,7 @@ namespace ShootingRange
     {
 
         [Name("Enable Shooting Range")]
-        [Description("Enable shooting range targets, weather vane, hunting blind, warm barn near Penisve Pond in Pleasant Valley")]
+        [Description("Enable shooting range targets, weather vane, hunting blind, and a warm barn near Pensive Pond in Pleasant Valley")]
         public bool enableRange = false;
 
 

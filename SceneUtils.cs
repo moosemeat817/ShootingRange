@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,14 +7,10 @@ using System.Threading.Tasks;
 using Il2Cpp;
 using UnityEngine;
 
-
-
-
 namespace ShootingRange
 {
     internal class SceneUtils
     {
-
         //Instantiate Terrain
         public static void InstantiateObjectInScene(GameObject prfb, Vector3 pos, Vector3 rot, Vector3 scale)
         {
@@ -34,12 +31,15 @@ namespace ShootingRange
             }
         }
 
-
         //Instantiate Objects or Structures or Terrains
         public static void PlaceAssetsInScene(string name, Vector3 pos, Vector3 rot, Vector3 scale)
         {
+            GameObject prfb = null;
 
-            GameObject prfb = AssetUtils.GetPrefab(name);
+            if (AssetUtils.cachedPrefabs.ContainsKey(name))
+            {
+                prfb = AssetUtils.cachedPrefabs[name];
+            }
 
             if (prfb == null)
             {
@@ -52,21 +52,5 @@ namespace ShootingRange
             go.transform.localScale = scale;
             go.name = "ZZZ_" + go.name;
         }
-
-
-        /*
-        public static void ChangeObjects(GameObject prfb, Vector3 pos, Vector3 rot, Vector3 scale)
-        {
-
-           
-            //GameObject prfb = new GameObject();
-
-            GameObject cloneObject = Instantiate(prfb, pos, rot, scale);
-
-
-
-        }
-        */
-
     }
 }

@@ -114,7 +114,7 @@ namespace ShootingRange
                                 new Vector3(2411.858f, 122.4955f, 1197.813f),
                                 Quaternion.Euler(-0f, 208.0688f, 0f)
                             );
-                            cloneObject.transform.localScale = new Vector3(3f, 3f, 3f);
+                            cloneObject.transform.localScale = new Vector3(3f, 3f, 1.5f);
                         }
                         // ------------------------------------------------------------------------------------------
 
@@ -187,7 +187,7 @@ namespace ShootingRange
                                 new Vector3(2438.115f, 122.3273f, 1112.845f),
                                 Quaternion.Euler(7f, 292.7614f, 359f)
                             );
-                            cloneObject.transform.localScale = new Vector3(3f, 3f, 3f);
+                            cloneObject.transform.localScale = new Vector3(3f, 3f, 1.5f);
                         }
                         // ------------------------------------------------------------------------------------------
 
@@ -260,7 +260,7 @@ namespace ShootingRange
                                 new Vector3(2371.293f, 123.4503f, 1204.695f),
                                 Quaternion.Euler(-0, 194.6425f, 0f)
                             );
-                            cloneObject.transform.localScale = new Vector3(3f, 3f, 3f);
+                            cloneObject.transform.localScale = new Vector3(3f, 3f, 1.5f);
                         }
                         // ------------------------------------------------------------------------------------------
 
